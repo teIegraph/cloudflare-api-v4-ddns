@@ -1,6 +1,6 @@
 #!/bin/bash
 auth_email=""                                     # 用于登录https://dash.cloudflare.com的邮箱
-auth_method="token"                                            # Api Key类型"global"或"token"其中一种
+auth_method="global"                                            # Api Key类型"global"或"token"其中一种
 auth_key=""            # Api Key
 zone_identifier=""             # 域名概览页（Overview）找到区域id（Zone ID）
 record_name="sub.heheda.io"                                 # 需要更新的域名A记录+根域名全称，比如要更新domain.com的sub子域名，就完整填入，即record_name="sub.domain.com"
