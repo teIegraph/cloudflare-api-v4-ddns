@@ -33,10 +33,10 @@ CFKEY=
 # Username, eg: user@example.com
 CFUSER=
 
-# Zone name, eg: example.com
+# Zone name, eg: example.com 填写主域名
 CFZONE_NAME=
 
-# Hostname to update, eg: homeserver.example.com
+# Hostname to update, eg: homeserver.example.com 只填写前缀
 CFRECORD_NAME=
 
 # Record type, A(IPv4)|AAAA(IPv6), default IPv4
