@@ -31,7 +31,7 @@ sendnotify() {
 ###########################################
 ## 检测公网IP（如果你的环境有做科学上网，请注意选择下面适合自己的ip获取域名）
 ###########################################
-ip=$(curl -s https://api.ipify.org || curl -s https://ipv4.icanhazip.com/ || curl -s http://members.3322.org/dyndns/getip)
+ip=$(curl -s https://www.taobao.com/help/getip.php || curl -s https://ipv4.icanhazip.com/ || curl -s http://members.3322.org/dyndns/getip)
 if [ "${ip}" == "" ]; then
     printf "DDNS 更新助手：公网IP获取失败\n"
     message="DDNS 更新助手：公网IP获取失败"
